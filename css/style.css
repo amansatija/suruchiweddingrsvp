@@ -398,10 +398,19 @@ button:focus{
 
 .lbox-details h2{
 	font-size: 48px;
+	font-family: 'Verdana', sans-serif;
 	color: #ffffff;
 	position: relative;
 	z-index: 3;
 }
+.lbox-details h3{
+	font-size: 28px;
+	font-family: 'Verdana', sans-serif;
+	color: #ffffff;
+	position: relative;
+	z-index: 3;
+}
+
 .lbox-details p{
 	color: #ffffff;
 	position: relative;

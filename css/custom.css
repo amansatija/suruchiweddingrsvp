@@ -1,2 +1,28 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+
+/* Set the size of the div element that contains the map */
+/* .mapouter{
+    position:relative;
+    height:500px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+} */
+
+.mapouter{
+    
+}
+.gmap_canvas {
+    overflow:hidden;
+}
+
+.center_horizontal_custom {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
