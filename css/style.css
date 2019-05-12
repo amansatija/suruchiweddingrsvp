@@ -390,7 +390,7 @@ button:focus{
 
 .lbox-details h1{
 	font-size: 68px;
-	font-family: 'Verdana', cursive;
+	font-family: 'Verdana', sans-serif;
 	color: #ffffff;
 	position: relative;
 	z-index: 3;
