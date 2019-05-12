@@ -536,7 +536,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-xs-12">
 				  <div class="contact-block">
-					<form id="contactForm">
+					<form id="contactForm" action="https://formspree.io/satija.aman@gmail.com" method="POST">
 					  <div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
@@ -546,26 +546,41 @@
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+								<input type="text" placeholder="Your Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
 								<div class="help-block with-errors"></div>
 							</div> 
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								<select class="custom-select d-block form-control"  name="guests" id="guest" required data-error="Please select an item in the list.">
 								  <option disabled selected>Number Of Guest*</option>
 								  <option value="1">1</option>
 								  <option value="2">2</option>
 								  <option value="3">3</option>
 								  <option value="4">4</option>
 								  <option value="5">5</option>
+								  <option value="5">6</option>
+								  <option value="5">7</option>
+								  <option value="5">8</option>
+								  <option value="5">9</option>
+								  <option value="5">10</option>
+								  <option value="5">11</option>
+								  <option value="5">12</option>
+								  <option value="5">13</option>
+								  <option value="5">14</option>
+								  <option value="5">15</option>
+								  <option value="5">16</option>
+								  <option value="5">17</option>
+								  <option value="5">18</option>
+								  <option value="5">19</option>
+								  <option value="5">20</option>
 								</select>
 								<div class="help-block with-errors"></div>
 							</div> 
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<select class="custom-select d-block form-control" id="event" required data-error="Please select an item in the list.">
+								<select class="custom-select d-block form-control" id="event" name="event" required data-error="Please select an item in the list.">
 								  <option disabled selected>I Am Attending*</option>
 								  <option value="1">All events</option>
 								  <option value="2">Wedding ceremony</option>
@@ -576,13 +591,13 @@
 						</div>
 						<div class="col-md-12">
 							<div class="form-group"> 
-								<textarea class="form-control" id="song" placeholder="Enter a song you will like us to play" rows="8" data-error="Enter a song." required></textarea>
+								<textarea class="form-control" id="song" placeholder="Enter a song you will like us to play"  name="songs" rows="8" data-error="Enter a song." required></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group"> 
-								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+								<textarea class="form-control" id="message" placeholder="Your Message" name="msg" rows="8" data-error="Write your message" required></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="submit-button text-center">
